@@ -13,18 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 0x70RVS
-email: tarekmostafa602@gmail.com
+title: haiddy
+email: haidyessam51@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- A computer science student interested in malware analysis and reverse engineering
-
-twitter_username: 0x70RVS
-github_username: 7ORVS
+  Computer science student interested in Reverse Engineering and Malware analysis.
+twitter_username: haiddy
+github_username: haiddy
 minimal_mistakes_skin: dark
 search: true
 search_full_content: true
+
 # Build settings
 markdown: kramdown
+<<<<<<< HEAD
+#repository : haiddy/haiddy.github.io
+=======
+>>>>>>> parent of 80f1f1a (last0)
 remote_theme: mmistakes/minimal-mistakes
 #theme: minimal-mistakes-jekyll
 # Outputting
@@ -58,35 +62,38 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "0x7ORVS"
-  avatar : "/assets/images/site-images/horus.jpg"
-  bio    : "Computer science student interested in malware analysis and reverse engineering"
-  location: "/home"
+  name   : "Haidy essam"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Computer science student interested in Reverse Engineering and Malware analysis."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/0x70RVS"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/7ORVS"
+      url: "https://github.com/haiddy"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/tarek-mostafa-277b911a4/"
+      url: "https://www.linkedin.com/in/haiddy-essam-2164b91b7"
+
+   # - label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+     # url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/0x70RVS"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/7ORVS"
+      url: "https://github.com/haiddy"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/tarek-mostafa-277b911a4/"
+      url: "https://www.linkedin.com/in/haiddy-essam-2164b91b7"
 
 defaults:
   # _posts
