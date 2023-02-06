@@ -16,6 +16,11 @@
   {% assign ribbon = 'darkgrey' %}
 {% endif %}
 
+{% if include.type == "list" and teaser %}
+    <div class="thumbnail-container">
+      <img src="{{ teaser | relative_url }}" alt="">
+    </div>
+{% endif %}
 
 <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
 
