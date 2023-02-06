@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
+  - title: "All Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+  - title: "Reverse Engineering"
+    url: /categories/#reverse-engineering
+  - title: "Malware Analysis"
+    url: /categories/#malware-analysis
+  - title: "Tutorials Summaries"
+    url: /categories/#tutorials-summaries  
+  - title: "About Me"
     url: /about/
