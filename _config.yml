@@ -13,26 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: haiddy
+email: haidyessam51@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Computer science student interested in Reverse Engineering and Malware analysis.
+twitter_username: haiddy
+github_username: haiddy
+minimal_mistakes_skin: dark
 search: true
+search_full_content: true
 
 # Build settings
 markdown: kramdown
+<<<<<<< HEAD
+#repository : haiddy/haiddy.github.io
+=======
+>>>>>>> parent of 80f1f1a (last0)
 remote_theme: mmistakes/minimal-mistakes
+#theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+words_per_minute: 170
 include:
   - _pages
 
@@ -58,9 +62,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Haidy essam"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Computer science student interested in Reverse Engineering and Malware analysis."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -70,10 +74,14 @@ author:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/haiddy"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/haiddy-essam-2164b91b7"
+
+   # - label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+     # url: "https://instagram.com/"
 
 footer:
   links:
@@ -82,10 +90,10 @@ footer:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/haiddy"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/haiddy-essam-2164b91b7"
 
 defaults:
   # _posts
