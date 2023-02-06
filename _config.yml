@@ -25,10 +25,6 @@ search_full_content: true
 
 # Build settings
 markdown: kramdown
-<<<<<<< HEAD
-#repository : haiddy/haiddy.github.io
-=======
->>>>>>> parent of 80f1f1a (last0)
 remote_theme: mmistakes/minimal-mistakes
 #theme: minimal-mistakes-jekyll
 # Outputting
