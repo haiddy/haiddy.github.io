@@ -1,10 +1,10 @@
 ---
-title: "APKs Analysis"
+title: "Binary Diffing"
 classes: wide
 ribbon: Red
 header:
   teaser: /assets/images/binary_diff/wallpaper.jpg
-description: " APKs analysis tips and tools "
+description: " binary diffing "
 categories:
   - Tutorials Summaries
 toc: true
