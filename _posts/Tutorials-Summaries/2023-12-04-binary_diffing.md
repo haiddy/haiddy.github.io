@@ -16,7 +16,8 @@ I was working on a ransome sample when I had a problem with that sample and deci
 
 ## BinDiff
 
-bindiff is a tool and an IDA plugin that can get us the matched and the unmatched function between 2 samples or files.
+bindiff is a tool and an IDA plugin that can get us the matched and the unmatched functions between 2 samples or files.
+we can export comments or the renamaing of the functions if we already passed those steps before.
 
 using it as a tool or as a plugin has the same functionality but here I'm using the plugin.
 
@@ -38,7 +39,7 @@ then open the second file on IDA and press ctrl+6
 
  ![](/assets/images/binary_diff/windows.PNG)
 
- if we scroll down to the statistics window we can see the similarity is 52% "Looks like there are a lot differences :'("
+ if we scroll down to the statistics window we can see the similarity is 52% "Looks like there are a lot of differences :'("
 
  ![](/assets/images/binary_diff/similarity.PNG)
 
